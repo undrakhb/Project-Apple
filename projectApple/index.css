@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100vw;
+  height: 44px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  gap: 24px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+#logoapple {
+  width: 30px;
+  height: 44px;
+  background-image: url(./picturesA/Applelogo.png);
+  display: flex;
+  background-size: cover;
+}
+#logosearch {
+  width: 30px;
+  height: 44px;
+  background-image: url(./picturesA/searchlogo.png);
+  display: flex;
+  background-size: cover;
+}
+#logoshopping {
+  width: 30px;
+  height: 44px;
+  background-image: url(./picturesA/shoppinlogo.png);
+  display: flex;
+  background-size: cover;
+}
+#header2 {
+  width: 100vw;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  align-items: center;
+  color: #1d1d1f;
+}
+
+#background1 {
+  width: 100vw;
+  height: 692px;
+  display: flex;
+  background-image: url(./picturesA/backgroundsector1.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  justify-content: center;
+  padding-top: 55px;
+}
+.containerbodytext {
+  color: white;
+  width: 405px;
+  height: 172px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+#buttonlearn {
+  width: 123px;
+  height: 44px;
+  background-color: #0071e3;
+  display: flex;
+  border-radius: 22px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+}
+#buttonb {
+  width: 207px;
+  height: 44px;
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+#buttonbuy {
+  width: 68px;
+  height: 44px;
+  border: 1px solid #0071e3;
+  border-radius: 22px;
+  color: #0071e3;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 16px;
+}
+#background2 {
+  width: 100vw;
+  height: 692px;
+  display: flex;
+  background: url(./picturesA/backgroundsector2.jpg) no-repeat center center;
+
+  justify-content: center;
+  margin-top: 12px;
+  padding-top: 55px;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#background3 {
+  width: 100vw;
+  height: 692px;
+  display: flex;
+  background: url(./picturesA/backgroundsector3.jpg) no-repeat center center;
+
+  justify-content: center;
+  margin-top: 12px;
+  padding-top: 55px;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#buttongift {
+  width: 114px;
+  height: 44px;
+  background-color: #0071e3;
+  border-radius: 22px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 16px;
+  color: white;
+}
+#containerbodytext {
+  width: 405px;
+  height: 164px;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 446px;
+  
+}
