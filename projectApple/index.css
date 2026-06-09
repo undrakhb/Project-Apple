@@ -13,6 +13,7 @@
   gap: 24px;
   font-weight: 400;
   margin-top: 8px;
+  background-color: white;
 }
 #logoapple {
   width: 30px;
@@ -147,5 +148,113 @@
   justify-content: center;
   align-items: center;
   margin-top: 446px;
-  
+}
+
+#background4 {
+  width: 100vw;
+  height: 580px;
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+  gap: 12px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 12px;
+}
+#pic1 {
+  width: 50%;
+  height: 580px;
+  background: url(./picturesA/ipad.jpg);
+  display: flex;
+}
+#pic2 {
+  width: 50%;
+  height: 580px;
+  background: url(./picturesA/airpods.jpg);
+  display: flex;
+}
+#background5 {
+  width: 100vw;
+  height: 580px;
+  display: flex;
+  gap: 12px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 12px;
+}
+#pic3 {
+  width: 50%;
+  height: 580px;
+  background: url(./picturesA/iwatch.jpg);
+  display: flex;
+}
+#pic4 {
+  width: 50%;
+  height: 580px;
+  background: url(./picturesA/imac.jpg);
+  display: flex;
+}
+#background6 {
+  width: 100vw;
+  height: 580px;
+  display: flex;
+  gap: 12px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 12px;
+}
+#pic5 {
+  width: 50%;
+  height: 580px;
+  background: url(./picturesA/iphone.jpg);
+  display: flex;
+}
+#pic6 {
+  width: 50%;
+  height: 580px;
+  background: url(./picturesA/card.jpg);
+  display: flex;
+}
+#background7 {
+  width: 3782px;
+  height: 668px;
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+}
+#pic7 {
+  width: 1250px;
+  height: 668px;
+  background: url(./picturesA/disclaimer.jpg);
+  display: flex;
+}
+#pic8 {
+  width: 1250px;
+  height: 668px;
+  background: url(./picturesA/flymetomoon.jpg);
+  display: flex;
+}
+#pic9 {
+  width: 1250px;
+  height: 668px;
+  background: url(./picturesA/shrinking.jpg);
+  display: flex;
+}
+
+#background8 {
+  width: 1920px;
+  height: 292px;
+  display: flex;
+  background-size: cover;
+}
+#pic10 {
+  width: 417px;
+  height: 236px;
+  background: url(./picturesA/pic10.jpg);
 }
