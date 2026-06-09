@@ -68,7 +68,7 @@
   align-items: center;
   background-size: cover;
 }
-#buttonlearn {
+.buttonlearn {
   width: 123px;
   height: 44px;
   background-color: #0071e3;
@@ -79,14 +79,14 @@
   color: white;
   font-size: 16px;
 }
-#buttonb {
+.buttonb {
   width: 207px;
   height: 44px;
   display: flex;
   gap: 16px;
   margin-top: 20px;
 }
-#buttonbuy {
+.buttonbuy {
   width: 68px;
   height: 44px;
   border: 1px solid #0071e3;
@@ -97,6 +97,18 @@
   display: flex;
   font-size: 16px;
 }
+#buttonlearn {
+  width: 123px;
+  height: 44px;
+  background-color: white;
+  display: flex;
+  border-radius: 22px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 16px;
+}
+
 #background2 {
   width: 100vw;
   height: 692px;
@@ -157,9 +169,7 @@
   background-size: cover;
   justify-content: center;
   gap: 12px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+
   background-size: cover;
   margin-top: 12px;
 }
@@ -168,21 +178,58 @@
   height: 580px;
   background: url(./picturesA/ipad.jpg);
   display: flex;
+  background-size: cover;
+
+  flex-direction: column;
+  align-items: center;
+}
+#pic1back {
+  width: 430px;
+  height: 33px;
+  display: flex;
+  background-image: url(./picturesA/ipadair2222.png);
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
 }
 #pic2 {
   width: 50%;
   height: 580px;
   background: url(./picturesA/airpods.jpg);
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back4text {
+  font-size: 18px;
+  color: #1d1d1f;
+}
+.backgroundtext {
+  width: 430px;
+  height: 146px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 58px;
+}
+#pic2text {
+  width: 370px;
+  height: 164px;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 318px;
+ 
 }
 #background5 {
   width: 100vw;
   height: 580px;
   display: flex;
   gap: 12px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+
   background-size: cover;
   margin-top: 12px;
 }
@@ -203,9 +250,7 @@
   height: 580px;
   display: flex;
   gap: 12px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+
   background-size: cover;
   margin-top: 12px;
 }
@@ -252,9 +297,40 @@
   height: 292px;
   display: flex;
   background-size: cover;
+  gap: 16px;
 }
 #pic10 {
   width: 417px;
   height: 236px;
   background: url(./picturesA/pic10.jpg);
+}
+#pic11 {
+  width: 417px;
+  height: 236px;
+  background-color: #1b2632;
+  display: flex;
+}
+#pic11background {
+  width: 196px;
+  height: 196px;
+  background-image: url(./picturesA/pic11.jpg);
+  background-size: cover;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+#pic12 {
+  width: 417px;
+  height: 236px;
+  background: url(./picturesA/pic12.jpg);
+}
+#pic13 {
+  width: 417px;
+  height: 236px;
+  background: url(./picturesA/pic13.jpg);
+}
+#pic14 {
+  width: 417px;
+  height: 236px;
+  background: url(./picturesA/pic14.jpg);
 }
