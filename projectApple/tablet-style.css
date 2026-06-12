@@ -1,0 +1,45 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  #number1 {
+    width: 100%;
+  }
+  .headertext {
+    display: none;
+  }
+  #logomenu {
+    display: flex;
+  }
+  #background3 {
+    display: none ;
+  }
+  #background1 {
+ 
+  width: 100vw;
+  height: 650px;
+  display: flex;
+  background: url(./picturesA/background1tablet.jpg) no-repeat center center;
+background-position: center;
+  justify-content: center;
+  
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#pic2 {
+    display: none;
+
+}
+#airpodtablet {
+    display: flex;
+}
+#pic1 {
+    width: 100%;
+}
+#background4 {
+    width: 100%;
+}
+#pic6 {
+    display: none;
+}
+}
